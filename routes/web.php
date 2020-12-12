@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class, 'Index']);
+Route::get('/ShowPost/{id}',[\App\Http\Controllers\MainController::class,'ShowPost']);
+Route::get('/AddPost',[\App\Http\Controllers\MainController::class,'AddPost']);
+Route::post('/posts/upload', [\App\Http\Controllers\MainController::class, 'UploadImage']);

@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b67226f-f8c5-46dd-b8c7-dd632661f030" name="Default Changelist" comment="" />
+    <list default="true" id="3b67226f-f8c5-46dd-b8c7-dd632661f030" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/addPost.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/bootstrapScripts.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/mainLayout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/postsList.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/styles.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/showPost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpServers">
     <servers>
       <server host="spd816.laravel.com" id="ffa071bd-c307-4daf-9022-192c100718f2" name="spd816.laravel.com" />
@@ -127,6 +143,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lEmCpEsob3HJs9llbj7xAyb7YY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -152,7 +169,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607170500299</updated>
-      <workItem from="1607170501365" duration="7923000" />
+      <workItem from="1607170501365" duration="8636000" />
+      <workItem from="1607347062121" duration="24000" />
+      <workItem from="1607784980386" duration="3890000" />
     </task>
     <servers />
   </component>
@@ -160,49 +179,69 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607182793352">
+    <state x="240" y="0" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607788775147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182793352" />
-    <state width="1213" height="169" key="GridCell.Tab.0.bottom" timestamp="1607182315074">
+    <state x="240" y="0" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607788775147" />
+    <state width="1213" height="157" key="GridCell.Tab.0.bottom" timestamp="1607182921687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1213" height="169" key="GridCell.Tab.0.bottom/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182315074" />
-    <state width="1213" height="169" key="GridCell.Tab.0.center" timestamp="1607182315074">
+    <state width="1213" height="157" key="GridCell.Tab.0.bottom/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921687" />
+    <state width="1213" height="157" key="GridCell.Tab.0.center" timestamp="1607182921687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1213" height="169" key="GridCell.Tab.0.center/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182315074" />
-    <state width="1213" height="169" key="GridCell.Tab.0.left" timestamp="1607182315074">
+    <state width="1213" height="157" key="GridCell.Tab.0.center/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921687" />
+    <state width="1213" height="157" key="GridCell.Tab.0.left" timestamp="1607182921687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1213" height="169" key="GridCell.Tab.0.left/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182315074" />
-    <state width="1213" height="169" key="GridCell.Tab.0.right" timestamp="1607182315074">
+    <state width="1213" height="157" key="GridCell.Tab.0.left/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921687" />
+    <state width="1213" height="157" key="GridCell.Tab.0.right" timestamp="1607182921687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1213" height="169" key="GridCell.Tab.0.right/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182315074" />
-    <state width="1213" height="169" key="GridCell.Tab.1.bottom" timestamp="1607182317564">
+    <state width="1213" height="157" key="GridCell.Tab.0.right/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921687" />
+    <state width="1213" height="157" key="GridCell.Tab.1.bottom" timestamp="1607182921688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1213" height="169" key="GridCell.Tab.1.bottom/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182317564" />
-    <state width="1213" height="169" key="GridCell.Tab.1.center" timestamp="1607182317564">
+    <state width="1213" height="157" key="GridCell.Tab.1.bottom/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921688" />
+    <state width="1213" height="157" key="GridCell.Tab.1.center" timestamp="1607182921688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1213" height="169" key="GridCell.Tab.1.center/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182317564" />
-    <state width="1213" height="169" key="GridCell.Tab.1.left" timestamp="1607182317564">
+    <state width="1213" height="157" key="GridCell.Tab.1.center/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921688" />
+    <state width="1213" height="157" key="GridCell.Tab.1.left" timestamp="1607182921687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1213" height="169" key="GridCell.Tab.1.left/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182317564" />
-    <state width="1213" height="169" key="GridCell.Tab.1.right" timestamp="1607182317564">
+    <state width="1213" height="157" key="GridCell.Tab.1.left/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921687" />
+    <state width="1213" height="157" key="GridCell.Tab.1.right" timestamp="1607182921688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1213" height="169" key="GridCell.Tab.1.right/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182317564" />
+    <state width="1213" height="157" key="GridCell.Tab.1.right/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921688" />
+    <state width="1213" height="157" key="GridCell.Tab.2.bottom" timestamp="1607182921688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1213" height="157" key="GridCell.Tab.2.bottom/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921688" />
+    <state width="1213" height="157" key="GridCell.Tab.2.center" timestamp="1607182921688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1213" height="157" key="GridCell.Tab.2.center/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921688" />
+    <state width="1213" height="157" key="GridCell.Tab.2.left" timestamp="1607182921688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1213" height="157" key="GridCell.Tab.2.left/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921688" />
+    <state width="1213" height="157" key="GridCell.Tab.2.right" timestamp="1607182921688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1213" height="157" key="GridCell.Tab.2.right/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607182921688" />
+    <state x="403" y="228" key="NewPhpFileDialog" timestamp="1607787677669">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="403" y="228" key="NewPhpFileDialog/-1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1607787677669" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/MainController.php</url>
-          <line>10</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
